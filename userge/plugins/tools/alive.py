@@ -67,11 +67,11 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
     output = f"""
 **💲 Order SSH Premium hubungi @caesaranggaaa **
 **🌐 Server ID🇮🇩 ** : 
-    -Dewabiz : 5k/bulan
-    -Nusa    : 7k/bulan 
+    `-Dewabiz : 5k/bulan
+    -Nusa    : 7k/bulan `
 **🌐 Server SG🇸🇬 ** : 
-    -DO      : 7k/bulan
-    -AWS     : 10k/bulan 
+   ` -DO      : 7k/bulan
+    -AWS     : 10k/bulan `
 +++++++++++++++++++++++++++++++
 **⏱  UmurBot** : `{userge.uptime}`
 **🤖 VersiBot** : `{get_version()}`
