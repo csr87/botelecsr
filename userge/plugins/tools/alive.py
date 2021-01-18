@@ -24,10 +24,10 @@ from userge import userge, Message, Config, versions, get_version, logging
 
 _LOG = logging.getLogger(__name__)
 
-_IS_TELEGRAPH = False
+_IS_TELEGRAPH = True
 _IS_STICKER = False
 
-_DEFAULT = "https://t.me/theUserge/31"
+_DEFAULT = "https://telegra.ph/file/e3e49334a81dab41219a6.png"
 _CHAT, _MSG_ID = None, None
 _LOGO_ID = None
 
@@ -66,11 +66,11 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
     markup = None
     output = f"""
 **💲 Order SSH Premium hubungi @caesaranggaaa **
-**🌐 Server ID🇮🇩 ** : 
-    `-Dewabiz : 5k/bulan
+**🌐 Server ID🇮🇩 ** : `
+    -Dewabiz : 5k/bulan
     -Nusa    : 7k/bulan `
-**🌐 Server SG🇸🇬 ** : 
-    `-DO      : 7k/bulan
+**🌐 Server SG🇸🇬 ** : `
+    -DO      : 7k/bulan
     -AWS     : 10k/bulan `
 +++++++++++++++++++++++++++++++
 **⏱  UmurBot** : `{userge.uptime}`
