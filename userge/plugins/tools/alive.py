@@ -27,7 +27,7 @@ _LOG = logging.getLogger(__name__)
 _IS_TELEGRAPH = False
 _IS_STICKER = False
 
-_DEFAULT = "https://t.me/theUserge/31"
+_DEFAULT = "https://telegra.ph/file/17ec02e2ca7d4d5d165ee.jpg"
 _CHAT, _MSG_ID = None, None
 _LOGO_ID = None
 
@@ -81,18 +81,8 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
     **__Pyrogram__**: `{versions.__pyro_version__}`"""
     if not message.client.is_bot:
         output += f"""\n
-🎖 **{versions.__license__}** | 👥 **{versions.__copyright__}** | 🧪 **[Repo]({Config.UPSTREAM_REPO})**
+**by Botelecsr**
 """
-    else:
-        copy_ = "https://github.com/UsergeTeam/Userge/blob/master/LICENSE"
-        markup = InlineKeyboardMarkup([
-            [
-                InlineKeyboardButton(text="👥 UsergeTeam", url="https://github.com/UsergeTeam"),
-                InlineKeyboardButton(text="🧪 Repo", url=Config.UPSTREAM_REPO)
-            ],
-            [InlineKeyboardButton(text="🎖 GNU GPL v3.0", url=copy_)]
-        ])
-    return (output, markup)
 
 
 def _parse_arg(arg: bool) -> str:
