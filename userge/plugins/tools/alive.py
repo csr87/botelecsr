@@ -27,7 +27,7 @@ _LOG = logging.getLogger(__name__)
 _IS_TELEGRAPH = False
 _IS_STICKER = False
 
-_DEFAULT = "https://t.me/caesaranggaa/2"
+_DEFAULT = "https://t.me/caesaranggaa/3"
 _CHAT, _MSG_ID = None, None
 _LOGO_ID = None
 
@@ -72,13 +72,13 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
 **🌐 Server SG🇸🇬 ** : `
     -DO      : 7k/bulan
     -AWS     : 10k/bulan `
-+++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++
 **⏱  UmurBot** : `{userge.uptime}`
 **🤖 VersiBot** : `{get_version()}`
 **⚙️ ModeBot** : `{_get_mode().upper()}`
 **❤️ ModeCinta** : `active`
 **😘 ModeBucin** : `active`
-+++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++
 • **Anti-Virus** : `active`
 • **Digerakkan**: `{_parse_arg(Config.SUDO_ENABLED)}`
 • **Perlindungan-Pm**: `{_parse_arg(not Config.ALLOW_ALL_PMS)}`
@@ -87,7 +87,7 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
         output += f"\n• **Dyno-saver**: `{_parse_arg(Config.RUN_DYNO_SAVER)}`"
     output += f"""
 • **Unofficial**: `{_parse_arg(Config.LOAD_UNOFFICIAL_PLUGINS)}`
-+++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++
     **🐍UlarPiton**: `{versions.__python_version__}`
     **🐛AdikPiton**: `{versions.__pyro_version__}`"""
     
