@@ -24,10 +24,10 @@ from userge import userge, Message, Config, versions, get_version, logging
 
 _LOG = logging.getLogger(__name__)
 
-_IS_TELEGRAPH = True
+_IS_TELEGRAPH = False
 _IS_STICKER = False
 
-_DEFAULT = "https://telegra.ph/file/e3e49334a81dab41219a6.png"
+_DEFAULT = "https://t.me/caesaranggaa/2"
 _CHAT, _MSG_ID = None, None
 _LOGO_ID = None
 
