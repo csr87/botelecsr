@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://github.com/UsergeTeam/Userge">
-        <img src="resources/userge.png" alt="Userge">
+    <a href="https://github.com/csr87/botelecsr">
+        <img src="https://telegra.ph/file/17ec02e2ca7d4d5d165ee.jpg" alt="Botelecsr">
     </a>
     <br>
     <b>Pluggable Telegram UserBot</b>
