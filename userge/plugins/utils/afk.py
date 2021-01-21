@@ -49,8 +49,8 @@ async def active_afk(message: Message) -> None:
     TIME = time.time()
     REASON = message.input_str
     await asyncio.gather(
-        CHANNEL.log(f"You went AFK! : `{REASON}`"),
-        message.edit("`You went AFK!`", del_in=1),
+        CHANNEL.log(f"Gw mau AFK! : `{REASON}`"),
+        message.edit("`Gw mau AFK!`", del_in=1),
         AFK_COLLECTION.drop(),
         SAVED_SETTINGS.update_one(
             {'_id': 'AFK'}, {"$set": {'on': True, 'data': REASON, 'time': TIME}}, upsert=True))
@@ -70,8 +70,8 @@ async def handle_afk_incomming(message: Message) -> None:
     if user_id in USERS:
         if not (USERS[user_id][0] + USERS[user_id][1]) % randint(2, 4):
             if REASON:
-                out_str = (f"I'm still **AFK**.\nReason: <code>{REASON}</code>\n"
-                           f"Last Seen: `{afk_time} ago`")
+                out_str = (f"Gw lagi **AFK** sekarang, kalo penting nanti chat lagi.\nAlasan: <code>{REASON}</code>\n"
+                           f"AFK selama: `{afk_time} `")
             else:
                 out_str = choice(AFK_REASONS)
             coro_list.append(message.reply(out_str))
@@ -81,8 +81,8 @@ async def handle_afk_incomming(message: Message) -> None:
             USERS[user_id][1] += 1
     else:
         if REASON:
-            out_str = (f"I'm **AFK** right now.\nReason: <code>{REASON}</code>\n"
-                       f"Last Seen: `{afk_time} ago`")
+            out_str = (f"Gw lagi **AFK** sekarang, kalo penting nanti chat lagi.\nAlasan: <code>{REASON}</code>\n"
+                       f"AFK selama: `{afk_time} `")
         else:
             out_str = choice(AFK_REASONS)
         coro_list.append(message.reply(out_str))
