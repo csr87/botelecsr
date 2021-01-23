@@ -68,17 +68,18 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
 **💲 Order SSH Premium hubungi @caesaranggaaa **
 **🌐 Server ID🇮🇩 ** : `
     -Dewabiz : 5k/bulan
-    -Nusa    : 7k/bulan `
+    -Nusa    : 7k/bulan 
+    -Google  : 10k/bulan `
 **🌐 Server SG🇸🇬 ** : `
-    -DO      : 7k/bulan
+    -Vultr   : 8k/bulan
     -AWS     : 10k/bulan `
-+++++++++++++++++++++++++++
+++++++++++++++++++++++++
 **⏱  UmurBot** : `{userge.uptime}`
 **🤖 VersiBot** : `{get_version()}`
 **⚙️ ModeBot** : `{_get_mode().upper()}`
 **❤️ ModeCinta** : `active`
 **😘 ModeBucin** : `active`
-+++++++++++++++++++++++++++
+++++++++++++++++++++++++
 • **Anti-Virus** : `active`
 • **Digerakkan**: `{_parse_arg(Config.SUDO_ENABLED)}`
 • **Perlindungan-Pm**: `{_parse_arg(not Config.ALLOW_ALL_PMS)}`
@@ -87,7 +88,7 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
         output += f"\n• **Dyno-saver**: `{_parse_arg(Config.RUN_DYNO_SAVER)}`"
     output += f"""
 • **Unofficial**: `{_parse_arg(Config.LOAD_UNOFFICIAL_PLUGINS)}`
-+++++++++++++++++++++++++++
+++++++++++++++++++++++++
     **🐍UlarPiton**: `{versions.__python_version__}`
     **🐛AdikPiton**: `{versions.__pyro_version__}`"""
     
