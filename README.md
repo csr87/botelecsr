@@ -60,22 +60,7 @@
 * [**With Heroku 🇭**](https://csr87.github.io/deployment#deploying-with-heroku)  
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/csr87/botelecsr/tree/master)
 
-* [**With Docker 🐳**](https://theuserge.github.io/deployment#deploying-with-docker-)
 
-* [**With Git, Python and pip 🔧**](https://theuserge.github.io/deployment#deploying-with-legacy-method)
-
-### Video Tutorial 🎥
-
-  [![Tutorial](resources/tutorial.jpg)](https://youtu.be/M4T_BJvFqkc "Tutorial")
-
-### Support & Discussions 👥
-
-> Head over to the [Discussion Group](https://t.me/usergeot) and [Update Channel](https://t.me/theUserge)
-
-### Project Credits 💆‍♂️
-
-* [Specially to these projects](https://github.com/UsergeTeam/Userge#inspiration-) 🥰
-* [Contributors](https://github.com/UsergeTeam/Userge/graphs/contributors) 👥
 
 ### Copyright & License 👮
 
