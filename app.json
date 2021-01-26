@@ -30,6 +30,12 @@
             "required": false},
         "HEROKU_API_KEY": {
             "description": "get a Heroku API key from http://dashboard.heroku.com/account",
+            "required": false},
+        "LOAD_UNOFFICIAL_PLUGINS": {
+            "description": "fill in True or False",
+            "required": false},
+        "OCR_SPACE_API_KEY": {
+            "description": "get from ocr",
             "required": false}
     },
     "addons": [],
