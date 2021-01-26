@@ -147,7 +147,7 @@ async def kang_(message: Message):
                             await message.delete()
                         else:
                             out = "__tercolong__" if '-s' in message.flags else \
-                                f"[kanged](t.me/addstickers/{packname})"
+                                f"[tercolong](t.me/addstickers/{packname})"
                             await message.edit(f"**Sticker** {out} __in a Different Pack__**!**")
                         return
                 await conv.send_document(photo)
@@ -192,7 +192,7 @@ async def kang_(message: Message):
             await message.delete()
         else:
             out = "__tercolong__" if '-s' in message.flags else \
-                f"[kanged](t.me/addstickers/{packname})"
+                f"[tercolong](t.me/addstickers/{packname})"
             await message.edit(f"**Sticker** {out}**!**")
         if os.path.exists(str(photo)):
             os.remove(photo)
