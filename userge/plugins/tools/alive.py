@@ -68,11 +68,12 @@ def _get_alive_text_and_markup(message: Message) -> Tuple[str, Optional[InlineKe
 **💲 Order SSH Premium hubungi @caesaranggaaa **
 **🌐 Server ID🇮🇩 ** : `
     -Dewabiz : 5k/bulan
-    -Nusa    : 7k/bulan 
-    -Google  : 10k/bulan `
+    -Google  : 10k/bulan 
+    -VVIP    : 15k/bulan `
 **🌐 Server SG🇸🇬 ** : `
-    -Vultr   : 8k/bulan
-    -AWS     : 10k/bulan `
+    -Vultr   : 8k/bulan 
+    -AWS     : 10k/bulan
+    -VVIP    : 15k/bulan `
 ++++++++++++++++++++++++
 **⏱  UmurBot** : `{userge.uptime}`
 **🤖 VersiBot** : `{get_version()}`
